@@ -1,0 +1,26 @@
+body{
+  background-color: #e3fdfd;
+}
+.image_perfil {
+    width: 200px;
+    height: 200px;
+  }
+
+hr{
+    border-style: none none dotted none;
+    border-width: 0 0 7px 0;
+    border-color: #e5e5e5;
+    width: 4%;
+  }
+
+h1{
+  color: #66bfbf;
+}
+
+h2{
+  color: #66bfbf;
+}
+
+h3{
+  color: #66bfbf;
+}

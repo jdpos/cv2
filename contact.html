@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <h3>Contatos</h3>
+    <ul>
+      <li>Endereço: Rua Stella Maria, n° 29, Jardim Conteiro, Salvador-Bahia, CEP: 40.180-900</li>
+      <li>E-mail: joao.d.santos@gmail.com</li>
+      <li>Telefone: (71)98805-3572</li>
+    </ul>
+    <hr>
+    <!-- mailto define the default e-mail client instalado no computador para enviar o e-mail-->
+    <form class="" action="mailto:teste@gmail.com" method="post" enctype="text/plain">
+      <table>
+      <tr>
+        <td>
+          <label for="">Your Name:</label>
+        </td>
+        <td><input type="text" name="yourName" value=""> <input type="submit" name=""></td>
+        <td>
+          <label>Data de nascimento</label>
+          <input type="date" name="">
+        </td>
+      </tr>
+      <tr>
+        <td><label for="">Arquivo:</label></td>
+        <td><input type="file" name="" /></td>
+      </tr>
+      </table>
+      <br>
+      <label for="">Your e-mail:</label>
+      <input type="email" name="yourEmail" value=""> <br> <br>
+      <label for="">Your message:</label> <br>
+      <textarea name="yourMessage" rows="10" cols="30"></textarea><br>
+      <input type="submit" name="">
+    </form>
+  </body>
+</html>
